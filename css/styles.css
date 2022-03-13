@@ -1,0 +1,41 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+}
+
+nav {
+    word-spacing: 100px;
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    background-color: rgb(167, 77, 4);
+    color: rgb(20, 255, 165);
+    text-align: center;
+    padding: 10px;
+}
+
+.form {
+    text-align: center;
+}
+
+fieldset {
+    display: block;
+    background-color: darkgreen;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 20px;
+    border: 2px groove (internal value);
+}
+
+legend {
+    background-color: gray;
+    color: white;
+    padding: 5px;
+}
+
+footer {
+    color: aliceblue;
+    text-align: center;
+}
