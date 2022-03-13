@@ -16,10 +16,9 @@ Akan names are derived from Ghanian culture. Frequently in Ghana, children are g
 
 ### BDD (Behavior Driven Development)
 
-##### User fills the form
-##### User receives order summary
-##### Custom pop up appears with new order summary if delivery is selected
-##### User is prompted to input their delivery location  
+- User enters birthday
+- User chooses gender
+- User submits form and application brings a pop up with the user's Akan name 
 
 
 ## Languages and Frameworks
