@@ -19,6 +19,38 @@
     </style>
 </head>
 <body>
-    
+    <nav>
+        <p>
+            <a href="#">Culture</a>
+            <a href="#">History</a>
+        </p>
+    </nav>
+    <header>
+        <h2>Get to know your Akan Name!</h1>
+        <p> Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Enter your birthday, choose your gender and click the submit button to see what your name would be.</p>
+    </header>
+        <div class="form">
+            <fieldset>
+                <legend>Fill in your Birthday and Gender</legend>
+                <form name='registration' onSubmit="mysubmit()">
+                    <ul>
+                        <div>
+                          <label for="birthday">Birthday:</label>
+                          <input type="date" id="birthday" name="birthday">
+                        </div>
+                        <div>
+                          <label id="gender">Sex:</label>
+                          <input type="radio" name="sex" value="Male" /><span>Male</span>
+                          <input type="radio" name="sex" value="Female" /><span>Female</span>
+                        </div>
+                        <input type="button" name="submit" value="submit" onclick ="mysubmit()" />
+                    </ul>
+                </form>
+            </fieldset>
+        </div>
+    <footer>
+        <a href="https://github.com/FevenLynn">Feven Nakhulo</a>
+        Copyright © 2022
+    </footer>
 </body>
 </html>
